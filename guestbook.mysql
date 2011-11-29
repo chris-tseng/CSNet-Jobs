@@ -1,0 +1,13 @@
+drop table if exists guestbook
+;
+create table guestbook
+(
+	name	varchar(40) null,
+	location	varchar(40) null,
+	email		varchar(40) null,
+	url		varchar(40) null,
+	comments	text null
+)
+;
+
+
